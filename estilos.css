@@ -1,0 +1,9 @@
+body{background-color: rgb(125, 194, 209)}
+.seccion 
+{
+    background-color: rgb(199, 104, 87);
+    color: white;
+    padding: 8px; 
+}
+
+.centrada{text-align: center}
