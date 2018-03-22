@@ -11,7 +11,16 @@
         <div>
             <h1 class="h1_1">Crea una nueva nave nodriza!</h1>
         </div>
-        <a href="index.html" class="boton">
+
+        <div>
+            <form action="crear_nodriza.php" method="POST">
+                <label for="nombre">Nombre de nave nodriza</label>
+                <input type="text" id="nombre" placeholder="Nombre nave">
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+
+        <a href="index.html" class="boton pequeño">
             <span class="icon-airplane"></span>Volver a inicio
         </a>
     </body>
